@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Degree College - Student Portal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Aditya Degree College</h1>
+    <p>Student Portal</p>
+
+    <div class="card">
+      <h2>Subjects</h2>
+      <button onclick="loadSubjects('3-1')">3-1</button>
+      <button onclick="loadSubjects('3-2')">3-2</button>
+      <ul id="subjects"></ul>
+    </div>
+
+    <div class="card">
+      <h2>PDFs</h2>
+      <ul id="pdfs"></ul>
+    </div>
+
+    <div class="card">
+      <h2>Profile</h2>
+      <p id="profile"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
